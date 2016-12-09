@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05BA2F991DF858C0007D820C /* Web2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BA2F981DF858C0007D820C /* Web2ViewController.swift */; };
+		05BA2F9B1DF8B508007D820C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BA2F9A1DF8B508007D820C /* LoginViewController.swift */; };
 		05C50BAB1DF79533000DF1B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C50BAA1DF79533000DF1B2 /* AppDelegate.swift */; };
 		05C50BAD1DF79533000DF1B2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C50BAC1DF79533000DF1B2 /* FirstViewController.swift */; };
 		05C50BAF1DF79533000DF1B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C50BAE1DF79533000DF1B2 /* SecondViewController.swift */; };
@@ -15,6 +17,10 @@
 		05C50BB71DF79533000DF1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C50BB51DF79533000DF1B2 /* LaunchScreen.storyboard */; };
 		05C50BC21DF79533000DF1B2 /* MappiePrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C50BC11DF79533000DF1B2 /* MappiePrototypeTests.swift */; };
 		05C50BCD1DF79533000DF1B2 /* MappiePrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C50BCC1DF79533000DF1B2 /* MappiePrototypeUITests.swift */; };
+		05C50BDB1DF7A264000DF1B2 /* VideoBackgroundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C50BDA1DF7A264000DF1B2 /* VideoBackgroundController.swift */; };
+		05C50BDD1DF7A543000DF1B2 /* Downtown_Detroit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 05C50BDC1DF7A543000DF1B2 /* Downtown_Detroit.mp4 */; };
+		05C50BE11DF7C5ED000DF1B2 /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C50BE01DF7C5ED000DF1B2 /* DealsViewController.swift */; };
+		05C50BE31DF7F7D6000DF1B2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C50BE21DF7F7D6000DF1B2 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05BA2F981DF858C0007D820C /* Web2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web2ViewController.swift; sourceTree = "<group>"; };
+		05BA2F9A1DF8B508007D820C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		05C50BA71DF79533000DF1B2 /* MappiePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MappiePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C50BAA1DF79533000DF1B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05C50BAC1DF79533000DF1B2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		05C50BC81DF79533000DF1B2 /* MappiePrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MappiePrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C50BCC1DF79533000DF1B2 /* MappiePrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappiePrototypeUITests.swift; sourceTree = "<group>"; };
 		05C50BCE1DF79533000DF1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C50BDA1DF7A264000DF1B2 /* VideoBackgroundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundController.swift; sourceTree = "<group>"; };
+		05C50BDC1DF7A543000DF1B2 /* Downtown_Detroit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Downtown_Detroit.mp4; path = ../../Downloads/Downtown_Detroit.mp4; sourceTree = "<group>"; };
+		05C50BE01DF7C5ED000DF1B2 /* DealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
+		05C50BE21DF7F7D6000DF1B2 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,7 @@
 		05C50B9E1DF79533000DF1B2 = {
 			isa = PBXGroup;
 			children = (
+				05C50BDC1DF7A543000DF1B2 /* Downtown_Detroit.mp4 */,
 				05C50BA91DF79533000DF1B2 /* MappiePrototype */,
 				05C50BC01DF79533000DF1B2 /* MappiePrototypeTests */,
 				05C50BCB1DF79533000DF1B2 /* MappiePrototypeUITests */,
@@ -103,6 +116,11 @@
 				05C50BAC1DF79533000DF1B2 /* FirstViewController.swift */,
 				05C50BAE1DF79533000DF1B2 /* SecondViewController.swift */,
 				05C50BB01DF79533000DF1B2 /* Main.storyboard */,
+				05BA2F9A1DF8B508007D820C /* LoginViewController.swift */,
+				05C50BE21DF7F7D6000DF1B2 /* WebViewController.swift */,
+				05BA2F981DF858C0007D820C /* Web2ViewController.swift */,
+				05C50BE01DF7C5ED000DF1B2 /* DealsViewController.swift */,
+				05C50BDA1DF7A264000DF1B2 /* VideoBackgroundController.swift */,
 				05C50BB31DF79533000DF1B2 /* Assets.xcassets */,
 				05C50BB51DF79533000DF1B2 /* LaunchScreen.storyboard */,
 				05C50BB81DF79533000DF1B2 /* Info.plist */,
@@ -196,6 +214,7 @@
 				TargetAttributes = {
 					05C50BA61DF79533000DF1B2 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 79X7QBGTK2;
 						ProvisioningStyle = Automatic;
 					};
 					05C50BBC1DF79533000DF1B2 = {
@@ -235,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C50BDD1DF7A543000DF1B2 /* Downtown_Detroit.mp4 in Resources */,
 				05C50BB71DF79533000DF1B2 /* LaunchScreen.storyboard in Resources */,
 				05C50BB41DF79533000DF1B2 /* Assets.xcassets in Resources */,
 				05C50BB21DF79533000DF1B2 /* Main.storyboard in Resources */,
@@ -263,6 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				05C50BAF1DF79533000DF1B2 /* SecondViewController.swift in Sources */,
+				05C50BE31DF7F7D6000DF1B2 /* WebViewController.swift in Sources */,
+				05C50BDB1DF7A264000DF1B2 /* VideoBackgroundController.swift in Sources */,
+				05BA2F991DF858C0007D820C /* Web2ViewController.swift in Sources */,
+				05BA2F9B1DF8B508007D820C /* LoginViewController.swift in Sources */,
+				05C50BE11DF7C5ED000DF1B2 /* DealsViewController.swift in Sources */,
 				05C50BAB1DF79533000DF1B2 /* AppDelegate.swift in Sources */,
 				05C50BAD1DF79533000DF1B2 /* FirstViewController.swift in Sources */,
 			);
@@ -416,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79X7QBGTK2;
 				INFOPLIST_FILE = MappiePrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.Trippie.MappiePrototype;
@@ -428,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79X7QBGTK2;
 				INFOPLIST_FILE = MappiePrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.Trippie.MappiePrototype;
@@ -509,6 +536,7 @@
 				05C50BD31DF79533000DF1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05C50BD41DF79533000DF1B2 /* Build configuration list for PBXNativeTarget "MappiePrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +545,7 @@
 				05C50BD61DF79533000DF1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05C50BD71DF79533000DF1B2 /* Build configuration list for PBXNativeTarget "MappiePrototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +554,7 @@
 				05C50BD91DF79533000DF1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
